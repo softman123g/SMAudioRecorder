@@ -12,6 +12,30 @@
 		CD41BF631C8FF8920060457F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD41BF611C8FF8920060457F /* Main.storyboard */; };
 		CD41BF651C8FF8920060457F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD41BF641C8FF8920060457F /* Assets.xcassets */; };
 		CD41BF681C8FF8920060457F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD41BF661C8FF8920060457F /* LaunchScreen.storyboard */; };
+		CD41BF721C8FFCEA0060457F /* audio.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD41BF701C8FFCEA0060457F /* audio.xcassets */; };
+		CD41BF731C8FFCEA0060457F /* SMAudioRecorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41BF711C8FFCEA0060457F /* SMAudioRecorderViewController.swift */; };
+		CD41BF8E1C9001320060457F /* Align.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41BF761C9001320060457F /* Align.swift */; };
+		CD41BF8F1C9001320060457F /* Coefficients.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41BF781C9001320060457F /* Coefficients.swift */; };
+		CD41BF901C9001320060457F /* Compound.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41BF791C9001320060457F /* Compound.swift */; };
+		CD41BF911C9001320060457F /* Constrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41BF7A1C9001320060457F /* Constrain.swift */; };
+		CD41BF921C9001320060457F /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41BF7B1C9001320060457F /* Constraint.swift */; };
+		CD41BF931C9001320060457F /* ConstraintGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41BF7C1C9001320060457F /* ConstraintGroup.swift */; };
+		CD41BF941C9001320060457F /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41BF7D1C9001320060457F /* Context.swift */; };
+		CD41BF951C9001320060457F /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41BF7E1C9001320060457F /* Dimension.swift */; };
+		CD41BF961C9001320060457F /* Distribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41BF7F1C9001320060457F /* Distribute.swift */; };
+		CD41BF971C9001320060457F /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41BF801C9001320060457F /* Edge.swift */; };
+		CD41BF981C9001320060457F /* Edges.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41BF811C9001320060457F /* Edges.swift */; };
+		CD41BF991C9001320060457F /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41BF821C9001320060457F /* Expression.swift */; };
+		CD41BF9A1C9001320060457F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41BF831C9001320060457F /* Extensions.swift */; };
+		CD41BF9B1C9001320060457F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD41BF841C9001320060457F /* Info.plist */; };
+		CD41BF9C1C9001320060457F /* LayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41BF851C9001320060457F /* LayoutProxy.swift */; };
+		CD41BF9D1C9001320060457F /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41BF861C9001320060457F /* Point.swift */; };
+		CD41BF9E1C9001320060457F /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41BF871C9001320060457F /* Priority.swift */; };
+		CD41BF9F1C9001320060457F /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41BF881C9001320060457F /* Property.swift */; };
+		CD41BFA01C9001320060457F /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41BF891C9001320060457F /* Size.swift */; };
+		CD41BFA11C9001320060457F /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41BF8A1C9001320060457F /* View.swift */; };
+		CD41BFA21C9001320060457F /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41BF8B1C9001320060457F /* ViewUtils.swift */; };
+		CD41BFA31C9001320060457F /* SMToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD41BF8D1C9001320060457F /* SMToast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +46,31 @@
 		CD41BF641C8FF8920060457F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD41BF671C8FF8920060457F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD41BF691C8FF8920060457F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD41BF701C8FFCEA0060457F /* audio.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = audio.xcassets; sourceTree = "<group>"; };
+		CD41BF711C8FFCEA0060457F /* SMAudioRecorderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMAudioRecorderViewController.swift; sourceTree = "<group>"; };
+		CD41BF761C9001320060457F /* Align.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Align.swift; sourceTree = "<group>"; };
+		CD41BF771C9001320060457F /* Cartography.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cartography.h; sourceTree = "<group>"; };
+		CD41BF781C9001320060457F /* Coefficients.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coefficients.swift; sourceTree = "<group>"; };
+		CD41BF791C9001320060457F /* Compound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Compound.swift; sourceTree = "<group>"; };
+		CD41BF7A1C9001320060457F /* Constrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constrain.swift; sourceTree = "<group>"; };
+		CD41BF7B1C9001320060457F /* Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
+		CD41BF7C1C9001320060457F /* ConstraintGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintGroup.swift; sourceTree = "<group>"; };
+		CD41BF7D1C9001320060457F /* Context.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
+		CD41BF7E1C9001320060457F /* Dimension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dimension.swift; sourceTree = "<group>"; };
+		CD41BF7F1C9001320060457F /* Distribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Distribute.swift; sourceTree = "<group>"; };
+		CD41BF801C9001320060457F /* Edge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Edge.swift; sourceTree = "<group>"; };
+		CD41BF811C9001320060457F /* Edges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Edges.swift; sourceTree = "<group>"; };
+		CD41BF821C9001320060457F /* Expression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expression.swift; sourceTree = "<group>"; };
+		CD41BF831C9001320060457F /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CD41BF841C9001320060457F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD41BF851C9001320060457F /* LayoutProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutProxy.swift; sourceTree = "<group>"; };
+		CD41BF861C9001320060457F /* Point.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		CD41BF871C9001320060457F /* Priority.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Priority.swift; sourceTree = "<group>"; };
+		CD41BF881C9001320060457F /* Property.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		CD41BF891C9001320060457F /* Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
+		CD41BF8A1C9001320060457F /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		CD41BF8B1C9001320060457F /* ViewUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewUtils.swift; sourceTree = "<group>"; };
+		CD41BF8D1C9001320060457F /* SMToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMToast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +87,7 @@
 		CD41BF511C8FF8920060457F = {
 			isa = PBXGroup;
 			children = (
+				CD41BF6F1C8FF9C80060457F /* SMAudioRecorder */,
 				CD41BF5C1C8FF8920060457F /* SMAudioRecorderDemo */,
 				CD41BF5B1C8FF8920060457F /* Products */,
 			);
@@ -62,6 +112,62 @@
 				CD41BF691C8FF8920060457F /* Info.plist */,
 			);
 			path = SMAudioRecorderDemo;
+			sourceTree = "<group>";
+		};
+		CD41BF6F1C8FF9C80060457F /* SMAudioRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				CD41BF741C9001320060457F /* Vender */,
+				CD41BF701C8FFCEA0060457F /* audio.xcassets */,
+				CD41BF711C8FFCEA0060457F /* SMAudioRecorderViewController.swift */,
+			);
+			path = SMAudioRecorder;
+			sourceTree = "<group>";
+		};
+		CD41BF741C9001320060457F /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				CD41BF751C9001320060457F /* Cartography */,
+				CD41BF8C1C9001320060457F /* SMToast */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		CD41BF751C9001320060457F /* Cartography */ = {
+			isa = PBXGroup;
+			children = (
+				CD41BF761C9001320060457F /* Align.swift */,
+				CD41BF771C9001320060457F /* Cartography.h */,
+				CD41BF781C9001320060457F /* Coefficients.swift */,
+				CD41BF791C9001320060457F /* Compound.swift */,
+				CD41BF7A1C9001320060457F /* Constrain.swift */,
+				CD41BF7B1C9001320060457F /* Constraint.swift */,
+				CD41BF7C1C9001320060457F /* ConstraintGroup.swift */,
+				CD41BF7D1C9001320060457F /* Context.swift */,
+				CD41BF7E1C9001320060457F /* Dimension.swift */,
+				CD41BF7F1C9001320060457F /* Distribute.swift */,
+				CD41BF801C9001320060457F /* Edge.swift */,
+				CD41BF811C9001320060457F /* Edges.swift */,
+				CD41BF821C9001320060457F /* Expression.swift */,
+				CD41BF831C9001320060457F /* Extensions.swift */,
+				CD41BF841C9001320060457F /* Info.plist */,
+				CD41BF851C9001320060457F /* LayoutProxy.swift */,
+				CD41BF861C9001320060457F /* Point.swift */,
+				CD41BF871C9001320060457F /* Priority.swift */,
+				CD41BF881C9001320060457F /* Property.swift */,
+				CD41BF891C9001320060457F /* Size.swift */,
+				CD41BF8A1C9001320060457F /* View.swift */,
+				CD41BF8B1C9001320060457F /* ViewUtils.swift */,
+			);
+			path = Cartography;
+			sourceTree = "<group>";
+		};
+		CD41BF8C1C9001320060457F /* SMToast */ = {
+			isa = PBXGroup;
+			children = (
+				CD41BF8D1C9001320060457F /* SMToast.swift */,
+			);
+			path = SMToast;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +228,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD41BF721C8FFCEA0060457F /* audio.xcassets in Resources */,
 				CD41BF681C8FF8920060457F /* LaunchScreen.storyboard in Resources */,
 				CD41BF651C8FF8920060457F /* Assets.xcassets in Resources */,
+				CD41BF9B1C9001320060457F /* Info.plist in Resources */,
 				CD41BF631C8FF8920060457F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +243,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD41BF9E1C9001320060457F /* Priority.swift in Sources */,
+				CD41BFA01C9001320060457F /* Size.swift in Sources */,
+				CD41BF921C9001320060457F /* Constraint.swift in Sources */,
+				CD41BFA21C9001320060457F /* ViewUtils.swift in Sources */,
+				CD41BF931C9001320060457F /* ConstraintGroup.swift in Sources */,
+				CD41BF911C9001320060457F /* Constrain.swift in Sources */,
+				CD41BF941C9001320060457F /* Context.swift in Sources */,
+				CD41BF8F1C9001320060457F /* Coefficients.swift in Sources */,
+				CD41BF971C9001320060457F /* Edge.swift in Sources */,
 				CD41BF601C8FF8920060457F /* ViewController.swift in Sources */,
+				CD41BF961C9001320060457F /* Distribute.swift in Sources */,
+				CD41BFA31C9001320060457F /* SMToast.swift in Sources */,
+				CD41BF8E1C9001320060457F /* Align.swift in Sources */,
+				CD41BF9F1C9001320060457F /* Property.swift in Sources */,
 				CD41BF5E1C8FF8920060457F /* AppDelegate.swift in Sources */,
+				CD41BF981C9001320060457F /* Edges.swift in Sources */,
+				CD41BF9A1C9001320060457F /* Extensions.swift in Sources */,
+				CD41BF901C9001320060457F /* Compound.swift in Sources */,
+				CD41BF951C9001320060457F /* Dimension.swift in Sources */,
+				CD41BF9D1C9001320060457F /* Point.swift in Sources */,
+				CD41BF9C1C9001320060457F /* LayoutProxy.swift in Sources */,
+				CD41BF731C8FFCEA0060457F /* SMAudioRecorderViewController.swift in Sources */,
+				CD41BFA11C9001320060457F /* View.swift in Sources */,
+				CD41BF991C9001320060457F /* Expression.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +380,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SMAudioRecorderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.softman123g.SMAudioRecorderDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -261,9 +393,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SMAudioRecorderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.softman123g.SMAudioRecorderDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -286,6 +420,7 @@
 				CD41BF6E1C8FF8920060457F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
